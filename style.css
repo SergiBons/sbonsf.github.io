@@ -1,5 +1,5 @@
 /* RESET */
-
+/*Palette: ["#cc6300","#f99243","#f9b743","#f9db43","#f3f943","#cef943"]*/
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: #0f172a;
+    background: #cc6300;
     color: white;
 }
 
@@ -28,7 +28,7 @@ a {
 
 h2 {
     margin-bottom: 20px;
-    color: #38bdf8;
+    color: #cef943;
 }
 
 /* NAVBAR */
@@ -42,7 +42,7 @@ nav {
     position: sticky;
     top: 0;
 
-    background: rgba(15, 23, 42, 0.95);
+    background: #f9b743
 }
 
 nav ul {
@@ -52,7 +52,7 @@ nav ul {
 }
 
 nav a:hover {
-    color: #38bdf8;
+    color: #cef943;
 }
 
 /* HERO */
@@ -82,8 +82,8 @@ nav a:hover {
     display: inline-block;
     padding: 12px 24px;
 
-    background: #38bdf8;
-    color: #0f172a;
+    background: #f3f943;
+    color: #f99243;
 
     border-radius: 8px;
     font-weight: bold;
@@ -102,7 +102,7 @@ nav a:hover {
 }
 
 .card {
-    background: #1e293b;
+    background: #f99243;
     padding: 20px;
     border-radius: 12px;
 
@@ -120,7 +120,7 @@ nav a:hover {
 .card a {
     display: inline-block;
     margin-top: 15px;
-    color: #38bdf8;
+    color: #cef943;
 }
 
 /* SKILLS */
@@ -132,7 +132,7 @@ nav a:hover {
 }
 
 .skills span {
-    background: #1e293b;
+    background: #f99243;
     padding: 10px 15px;
     border-radius: 999px;
 }
@@ -146,7 +146,7 @@ nav a:hover {
 }
 
 .socials a {
-    color: #38bdf8;
+    color: #cef943;
 }
 
 /* FOOTER */
