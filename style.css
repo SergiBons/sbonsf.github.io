@@ -1,13 +1,12 @@
 /* RESET */
-/*Palette: #391555, #712aaa, #9323af, #932396, #93237d, #932363, #93244b, #933e4b, #93564b*/
-
 :root {
-    --bg-color: #933e4b;
-    --surface-color: #93564b    ;
-    --primary-color: #712aaa;
-    --card-color: #93237d;
-    --text-color: #391555;
-    --secondary-text: #93244b;
+    --bg-color: #311825;
+    --surface-color: #3a1625 ;
+    --primary-color: #713a36;
+    --card-color: #421226;
+    --text-color: #bd8c28;
+    --secondary-text: #f7873d;
+    --tertiary-text: #f273ae;
 }
 
 * {
@@ -22,7 +21,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background: var(--bg-color);
-    color: white;
+    color: var(--tertiary-text);
 }
 
 a {
@@ -36,8 +35,10 @@ a {
     padding: 80px 20px;
 }
 
+
 h2 {
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     color: var(--text-color);
 }
 
@@ -114,13 +115,22 @@ nav a:hover {
 .card {
     background: var(--card-color);
     padding: 20px;
-    border-radius: 12px;
-
+    border-radius: 20px;
+    margin: 10px;
     transition: transform 0.2s;
+}
+
+.card p {
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 
 .card:hover {
     transform: translateY(-5px);
+}
+
+.card h2 {
+    margin-top: 10px;
 }
 
 .card h3 {
@@ -131,6 +141,11 @@ nav a:hover {
     display: inline-block;
     margin-top: 15px;
     color: var(--secondary-text);
+}
+
+.project-links {
+    display: flex;
+    gap: 1rem;
 }
 
 /* SKILLS */
@@ -164,7 +179,7 @@ nav a:hover {
 footer {
     text-align: center;
     padding: 30px;
-    color: #94a3b8;
+    color: var(--tertiary-text);
 }
 
 /* MOBILE */
