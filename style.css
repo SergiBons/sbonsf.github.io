@@ -1,5 +1,5 @@
 /* RESET */
-/*Palette: ["#cc6300","#f99243","#f9b743","#f9db43","#f3f943","#cef943"]*/
+/*Palette: ["#331900","#663200", "#cc6300","#f99243","#f9b743","#f9db43","#f3f943","#cef943"]*/
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@ a {
 
 h2 {
     margin-bottom: 20px;
-    color: #cef943;
+    color: #f9db43;
 }
 
 /* NAVBAR */
@@ -42,7 +42,7 @@ nav {
     position: sticky;
     top: 0;
 
-    background: #f9b743
+    background: #663200
 }
 
 nav ul {
@@ -52,7 +52,7 @@ nav ul {
 }
 
 nav a:hover {
-    color: #cef943;
+    color: #f9db43;
 }
 
 /* HERO */
@@ -82,8 +82,8 @@ nav a:hover {
     display: inline-block;
     padding: 12px 24px;
 
-    background: #f3f943;
-    color: #f99243;
+    background: #f9db43;
+    color: #331900;
 
     border-radius: 8px;
     font-weight: bold;
